@@ -2,6 +2,7 @@
     "summary": {
         "success": 24,
         "failed": 6,
+        "skipped": 0,
         "error": false,
         "disconnected": false,
         "exitCode": 1,
@@ -20,18 +21,18 @@
     "browsers": [
         {
             "browser": {
-                "id": "50849010",
-                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/62.0.3202.94 Safari/537.36",
-                "name": "HeadlessChrome 62.0.3202 (Linux 0.0.0)",
+                "id": "28573533",
+                "fullName": "FirefoxHeadless",
+                "name": "FirefoxHeadless",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1553355772544,
+                    "startTime": 1639461717414,
                     "total": 15,
                     "success": 12,
                     "failed": 3,
                     "skipped": 0,
-                    "totalTime": 115,
-                    "netTime": 43,
+                    "totalTime": 139,
+                    "netTime": 58,
                     "error": false,
                     "disconnected": false
                 },
@@ -47,62 +48,62 @@
                     "suite": [
                         "basic support",
                         "no children"
-                    ],
-                    "success": true,
-                    "skipped": false,
-                    "time": 11,
-                    "log": [],
-                    "assertionErrors": [],
-                    "startTime": 1553355772552,
-                    "endTime": 1553355772569,
-                    "weight": 3
-                },
-                {
-                    "id": "",
-                    "description": "can display a Custom Element with children in a Shadow Root",
-                    "suite": [
-                        "basic support",
-                        "with children"
-                    ],
-                    "success": true,
-                    "skipped": false,
-                    "time": 3,
-                    "log": [],
-                    "assertionErrors": [],
-                    "startTime": 1553355772571,
-                    "endTime": 1553355772574,
-                    "weight": 3
-                },
-                {
-                    "id": "",
-                    "description": "can display a Custom Element with children in a Shadow Root and pass in Light DOM children",
-                    "suite": [
-                        "basic support",
-                        "with children"
-                    ],
-                    "success": true,
-                    "skipped": false,
-                    "time": 5,
-                    "log": [],
-                    "assertionErrors": [],
-                    "startTime": 1553355772574,
-                    "endTime": 1553355772579,
-                    "weight": 3
-                },
-                {
-                    "id": "",
-                    "description": "can display a Custom Element with children in the Shadow DOM and handle hiding and showing the element",
-                    "suite": [
-                        "basic support",
-                        "with children"
                     ],
                     "success": true,
                     "skipped": false,
                     "time": 9,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772591,
-                    "endTime": 1553355772600,
+                    "startTime": 1639461717388,
+                    "endTime": 1639461717398,
+                    "weight": 3
+                },
+                {
+                    "id": "",
+                    "description": "can display a Custom Element with children in a Shadow Root",
+                    "suite": [
+                        "basic support",
+                        "with children"
+                    ],
+                    "success": true,
+                    "skipped": false,
+                    "time": 8,
+                    "log": [],
+                    "assertionErrors": [],
+                    "startTime": 1639461717413,
+                    "endTime": 1639461717423,
+                    "weight": 3
+                },
+                {
+                    "id": "",
+                    "description": "can display a Custom Element with children in a Shadow Root and pass in Light DOM children",
+                    "suite": [
+                        "basic support",
+                        "with children"
+                    ],
+                    "success": true,
+                    "skipped": false,
+                    "time": 7,
+                    "log": [],
+                    "assertionErrors": [],
+                    "startTime": 1639461717424,
+                    "endTime": 1639461717431,
+                    "weight": 3
+                },
+                {
+                    "id": "",
+                    "description": "can display a Custom Element with children in the Shadow DOM and handle hiding and showing the element",
+                    "suite": [
+                        "basic support",
+                        "with children"
+                    ],
+                    "success": true,
+                    "skipped": false,
+                    "time": 14,
+                    "log": [],
+                    "assertionErrors": [],
+                    "startTime": 1639461717441,
+                    "endTime": 1639461717455,
                     "weight": 3
                 },
                 {
@@ -117,8 +118,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772602,
-                    "endTime": 1553355772604,
+                    "startTime": 1639461717457,
+                    "endTime": 1639461717462,
                     "weight": 3
                 },
                 {
@@ -130,11 +131,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772605,
-                    "endTime": 1553355772606,
+                    "startTime": 1639461717463,
+                    "endTime": 1639461717463,
                     "weight": 3
                 },
                 {
@@ -146,11 +147,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 0,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772606,
-                    "endTime": 1553355772607,
+                    "startTime": 1639461717464,
+                    "endTime": 1639461717472,
                     "weight": 3
                 },
                 {
@@ -165,8 +166,8 @@
                     "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772607,
-                    "endTime": 1553355772609,
+                    "startTime": 1639461717473,
+                    "endTime": 1639461717475,
                     "weight": 3
                 },
                 {
@@ -178,11 +179,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772612,
-                    "endTime": 1553355772614,
+                    "startTime": 1639461717481,
+                    "endTime": 1639461717483,
                     "weight": 2
                 },
                 {
@@ -194,11 +195,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772614,
-                    "endTime": 1553355772616,
+                    "startTime": 1639461717483,
+                    "endTime": 1639461717483,
                     "weight": 2
                 },
                 {
@@ -210,11 +211,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 7,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772616,
-                    "endTime": 1553355772619,
+                    "startTime": 1639461717489,
+                    "endTime": 1639461717496,
                     "weight": 2
                 },
                 {
@@ -229,8 +230,8 @@
                     "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355772624,
-                    "endTime": 1553355772625,
+                    "startTime": 1639461717501,
+                    "endTime": 1639461717502,
                     "weight": 1
                 },
                 {
@@ -244,9 +245,13 @@
                     "skipped": false,
                     "time": 3,
                     "log": [
-                        "AssertionError: expected 'false' to deeply equal 'true'",
-                        "    at Context.<anonymous> (base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20939:49)",
-                        "    at <anonymous>"
+                        "expected 'false' to deeply equal 'true'",
+                        "AssertionError@webpack:///./node_modules/assertion-error/index.js?:76:13",
+                        "module.exports/Assertion.prototype.assert@webpack:///./node_modules/chai/lib/chai/assertion.js?:154:13",
+                        "assertEql@webpack:///./node_modules/chai/lib/chai/core/assertions.js?:1024:10",
+                        "methodWrapper@webpack:///./node_modules/chai/lib/chai/utils/addMethod.js?:59:25",
+                        "@webpack:///./src/advanced-tests.js?:99:49",
+                        ""
                     ],
                     "assertionErrors": [
                         {
@@ -257,8 +262,8 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355772630,
-                    "endTime": 1553355772637,
+                    "startTime": 1639461717507,
+                    "endTime": 1639461717511,
                     "weight": 1
                 },
                 {
@@ -270,11 +275,15 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 1,
+                    "time": 2,
                     "log": [
-                        "AssertionError: expected 'false' to deeply equal 'true'",
-                        "    at Context.<anonymous> (base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20951:49)",
-                        "    at <anonymous>"
+                        "expected 'false' to deeply equal 'true'",
+                        "AssertionError@webpack:///./node_modules/assertion-error/index.js?:76:13",
+                        "module.exports/Assertion.prototype.assert@webpack:///./node_modules/chai/lib/chai/assertion.js?:154:13",
+                        "assertEql@webpack:///./node_modules/chai/lib/chai/core/assertions.js?:1024:10",
+                        "methodWrapper@webpack:///./node_modules/chai/lib/chai/utils/addMethod.js?:59:25",
+                        "@webpack:///./src/advanced-tests.js?:111:49",
+                        ""
                     ],
                     "assertionErrors": [
                         {
@@ -285,8 +294,8 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355772644,
-                    "endTime": 1553355772645,
+                    "startTime": 1639461717516,
+                    "endTime": 1639461717518,
                     "weight": 1
                 },
                 {
@@ -298,11 +307,15 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 1,
+                    "time": 3,
                     "log": [
-                        "AssertionError: expected 'false' to deeply equal 'true'",
-                        "    at Context.<anonymous> (base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20963:49)",
-                        "    at <anonymous>"
+                        "expected 'false' to deeply equal 'true'",
+                        "AssertionError@webpack:///./node_modules/assertion-error/index.js?:76:13",
+                        "module.exports/Assertion.prototype.assert@webpack:///./node_modules/chai/lib/chai/assertion.js?:154:13",
+                        "assertEql@webpack:///./node_modules/chai/lib/chai/core/assertions.js?:1024:10",
+                        "methodWrapper@webpack:///./node_modules/chai/lib/chai/utils/addMethod.js?:59:25",
+                        "@webpack:///./src/advanced-tests.js?:123:49",
+                        ""
                     ],
                     "assertionErrors": [
                         {
@@ -313,26 +326,26 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355772650,
-                    "endTime": 1553355772651,
+                    "startTime": 1639461717522,
+                    "endTime": 1639461717526,
                     "weight": 1
                 }
             ]
         },
         {
             "browser": {
-                "id": "90165965",
-                "fullName": "FirefoxHeadless",
-                "name": "FirefoxHeadless",
+                "id": "90932643",
+                "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/96.0.4664.93 Safari/537.36",
+                "name": "HeadlessChrome 96.0.4664 (Linux 0.0.0)",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1553355773881,
+                    "startTime": 1639461715858,
                     "total": 15,
                     "success": 12,
                     "failed": 3,
                     "skipped": 0,
-                    "totalTime": 375,
-                    "netTime": 39,
+                    "totalTime": 73,
+                    "netTime": 25,
                     "error": false,
                     "disconnected": false
                 },
@@ -351,11 +364,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 7,
+                    "time": 13,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773838,
-                    "endTime": 1553355773846,
+                    "startTime": 1639461715855,
+                    "endTime": 1639461715870,
                     "weight": 3
                 },
                 {
@@ -367,11 +380,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773848,
-                    "endTime": 1553355773851,
+                    "startTime": 1639461715870,
+                    "endTime": 1639461715871,
                     "weight": 3
                 },
                 {
@@ -383,11 +396,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773852,
-                    "endTime": 1553355773855,
+                    "startTime": 1639461715872,
+                    "endTime": 1639461715874,
                     "weight": 3
                 },
                 {
@@ -399,11 +412,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 11,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773889,
-                    "endTime": 1553355773900,
+                    "startTime": 1639461715884,
+                    "endTime": 1639461715888,
                     "weight": 3
                 },
                 {
@@ -418,8 +431,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773922,
-                    "endTime": 1553355773927,
+                    "startTime": 1639461715890,
+                    "endTime": 1639461715892,
                     "weight": 3
                 },
                 {
@@ -434,8 +447,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773928,
-                    "endTime": 1553355773929,
+                    "startTime": 1639461715892,
+                    "endTime": 1639461715892,
                     "weight": 3
                 },
                 {
@@ -447,11 +460,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773930,
-                    "endTime": 1553355773931,
+                    "startTime": 1639461715892,
+                    "endTime": 1639461715893,
                     "weight": 3
                 },
                 {
@@ -463,11 +476,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773931,
-                    "endTime": 1553355773934,
+                    "startTime": 1639461715893,
+                    "endTime": 1639461715894,
                     "weight": 3
                 },
                 {
@@ -482,8 +495,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773963,
-                    "endTime": 1553355773965,
+                    "startTime": 1639461715898,
+                    "endTime": 1639461715900,
                     "weight": 2
                 },
                 {
@@ -498,8 +511,8 @@
                     "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773966,
-                    "endTime": 1553355773968,
+                    "startTime": 1639461715900,
+                    "endTime": 1639461715901,
                     "weight": 2
                 },
                 {
@@ -511,11 +524,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 2,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355773969,
-                    "endTime": 1553355773974,
+                    "startTime": 1639461715901,
+                    "endTime": 1639461715903,
                     "weight": 2
                 },
                 {
@@ -527,11 +540,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1553355774019,
-                    "endTime": 1553355774020,
+                    "startTime": 1639461715907,
+                    "endTime": 1639461715908,
                     "weight": 1
                 },
                 {
@@ -543,15 +556,10 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 2,
+                    "time": 1,
                     "log": [
-                        "expected 'false' to deeply equal 'true'",
-                        "AssertionError@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:6772:13",
-                        "module.exports/Assertion.prototype.assert@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13992:13",
-                        "assertEql@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:15038:5",
-                        "methodWrapper@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13112:18",
-                        "@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20939:49",
-                        ""
+                        "AssertionError: expected 'false' to deeply equal 'true'",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:99:49)"
                     ],
                     "assertionErrors": [
                         {
@@ -562,8 +570,8 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355774159,
-                    "endTime": 1553355774164,
+                    "startTime": 1639461715912,
+                    "endTime": 1639461715914,
                     "weight": 1
                 },
                 {
@@ -575,15 +583,10 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 2,
+                    "time": 0,
                     "log": [
-                        "expected 'false' to deeply equal 'true'",
-                        "AssertionError@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:6772:13",
-                        "module.exports/Assertion.prototype.assert@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13992:13",
-                        "assertEql@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:15038:5",
-                        "methodWrapper@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13112:18",
-                        "@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20951:49",
-                        ""
+                        "AssertionError: expected 'false' to deeply equal 'true'",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:111:49)"
                     ],
                     "assertionErrors": [
                         {
@@ -594,8 +597,8 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355774226,
-                    "endTime": 1553355774228,
+                    "startTime": 1639461715919,
+                    "endTime": 1639461715920,
                     "weight": 1
                 },
                 {
@@ -607,15 +610,10 @@
                     ],
                     "success": false,
                     "skipped": false,
-                    "time": 2,
+                    "time": 0,
                     "log": [
-                        "expected 'false' to deeply equal 'true'",
-                        "AssertionError@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:6772:13",
-                        "module.exports/Assertion.prototype.assert@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13992:13",
-                        "assertEql@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:15038:5",
-                        "methodWrapper@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:13112:18",
-                        "@http://localhost:9876/base/tests.webpack.js?bcbb805ac9b80ce8b2637f98acd174cc2038e79a:20963:49",
-                        ""
+                        "AssertionError: expected 'false' to deeply equal 'true'",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:123:49)"
                     ],
                     "assertionErrors": [
                         {
@@ -626,8 +624,8 @@
                             "expected": "\"true\""
                         }
                     ],
-                    "startTime": 1553355774238,
-                    "endTime": 1553355774240,
+                    "startTime": 1639461715924,
+                    "endTime": 1639461715925,
                     "weight": 1
                 }
             ]
@@ -635,6 +633,6 @@
     ],
     "library": {
         "name": "@polymer/polymer",
-        "version": "3.2.0"
+        "version": "3.4.1"
     }
 }

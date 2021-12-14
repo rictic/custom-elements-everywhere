@@ -1,12 +1,12 @@
 {
     "summary": {
-        "success": 30,
-        "failed": 0,
+        "success": 20,
+        "failed": 10,
         "skipped": 0,
         "error": false,
         "disconnected": false,
-        "exitCode": 0,
-        "score": 100,
+        "exitCode": 1,
+        "score": 82,
         "basicSupport": {
             "total": 16,
             "failed": 0,
@@ -14,25 +14,25 @@
         },
         "advancedSupport": {
             "total": 14,
-            "failed": 0,
-            "passed": 14
+            "failed": 10,
+            "passed": 4
         }
     },
     "browsers": [
         {
             "browser": {
-                "id": "53406484",
+                "id": "34248827",
                 "fullName": "FirefoxHeadless",
                 "name": "FirefoxHeadless",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1639461701365,
+                    "startTime": 1639461691789,
                     "total": 15,
-                    "success": 15,
-                    "failed": 0,
+                    "success": 10,
+                    "failed": 5,
                     "skipped": 0,
-                    "totalTime": 193,
-                    "netTime": 119,
+                    "totalTime": 174,
+                    "netTime": 117,
                     "error": false,
                     "disconnected": false
                 },
@@ -51,11 +51,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701357,
-                    "endTime": 1639461701362,
+                    "startTime": 1639461691765,
+                    "endTime": 1639461691768,
                     "weight": 3
                 },
                 {
@@ -67,11 +67,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701369,
-                    "endTime": 1639461701375,
+                    "startTime": 1639461691769,
+                    "endTime": 1639461691770,
                     "weight": 3
                 },
                 {
@@ -83,11 +83,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 7,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701376,
-                    "endTime": 1639461701393,
+                    "startTime": 1639461691771,
+                    "endTime": 1639461691778,
                     "weight": 3
                 },
                 {
@@ -99,11 +99,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 60,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701397,
-                    "endTime": 1639461701415,
+                    "startTime": 1639461691783,
+                    "endTime": 1639461691843,
                     "weight": 3
                 },
                 {
@@ -115,11 +115,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701424,
-                    "endTime": 1639461701426,
+                    "startTime": 1639461691846,
+                    "endTime": 1639461691847,
                     "weight": 3
                 },
                 {
@@ -131,11 +131,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701427,
-                    "endTime": 1639461701428,
+                    "startTime": 1639461691847,
+                    "endTime": 1639461691848,
                     "weight": 3
                 },
                 {
@@ -147,11 +147,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701428,
-                    "endTime": 1639461701429,
+                    "startTime": 1639461691848,
+                    "endTime": 1639461691848,
                     "weight": 3
                 },
                 {
@@ -163,11 +163,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 12,
+                    "time": 19,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701431,
-                    "endTime": 1639461701443,
+                    "startTime": 1639461691849,
+                    "endTime": 1639461691869,
                     "weight": 3
                 },
                 {
@@ -179,11 +179,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 2,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701449,
-                    "endTime": 1639461701451,
+                    "startTime": 1639461691879,
+                    "endTime": 1639461691880,
                     "weight": 2
                 },
                 {
@@ -195,11 +195,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 3,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461701456,
-                    "endTime": 1639461701459,
+                    "startTime": 1639461691884,
+                    "endTime": 1639461691885,
                     "weight": 2
                 },
                 {
@@ -209,13 +209,17 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 13,
-                    "log": [],
+                    "time": 22,
+                    "log": [
+                        "handled is null",
+                        "@webpack:///./src/advanced-tests.js?:63:10",
+                        ""
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461701464,
-                    "endTime": 1639461701477,
+                    "startTime": 1639461691885,
+                    "endTime": 1639461691913,
                     "weight": 2
                 },
                 {
@@ -225,13 +229,17 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 2,
+                    "log": [
+                        "handled is null",
+                        "@webpack:///./src/advanced-tests.js?:73:10",
+                        ""
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461701482,
-                    "endTime": 1639461701493,
+                    "startTime": 1639461691922,
+                    "endTime": 1639461691924,
                     "weight": 1
                 },
                 {
@@ -241,13 +249,17 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 2,
+                    "log": [
+                        "handled is null",
+                        "@webpack:///./src/advanced-tests.js?:83:10",
+                        ""
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461701498,
-                    "endTime": 1639461701509,
+                    "startTime": 1639461691930,
+                    "endTime": 1639461691933,
                     "weight": 1
                 },
                 {
@@ -257,13 +269,17 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 1,
+                    "log": [
+                        "handled is null",
+                        "@webpack:///./src/advanced-tests.js?:93:10",
+                        ""
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461701514,
-                    "endTime": 1639461701525,
+                    "startTime": 1639461691936,
+                    "endTime": 1639461691938,
                     "weight": 1
                 },
                 {
@@ -273,31 +289,35 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 12,
-                    "log": [],
+                    "time": 1,
+                    "log": [
+                        "handled is null",
+                        "@webpack:///./src/advanced-tests.js?:103:10",
+                        ""
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461701529,
-                    "endTime": 1639461701541,
+                    "startTime": 1639461691944,
+                    "endTime": 1639461691945,
                     "weight": 1
                 }
             ]
         },
         {
             "browser": {
-                "id": "82760324",
+                "id": "91895166",
                 "fullName": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/96.0.4664.93 Safari/537.36",
                 "name": "Chrome Headless 96.0.4664.93 (Linux x86_64)",
                 "state": "DISCONNECTED",
                 "lastResult": {
-                    "startTime": 1639461699864,
+                    "startTime": 1639461690034,
                     "total": 15,
-                    "success": 15,
-                    "failed": 0,
+                    "success": 10,
+                    "failed": 5,
                     "skipped": 0,
-                    "totalTime": 160,
-                    "netTime": 102,
+                    "totalTime": 115,
+                    "netTime": 69,
                     "error": false,
                     "disconnected": false
                 },
@@ -316,11 +336,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 4,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699872,
-                    "endTime": 1639461699877,
+                    "startTime": 1639461690034,
+                    "endTime": 1639461690036,
                     "weight": 3
                 },
                 {
@@ -332,11 +352,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 0,
+                    "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699878,
-                    "endTime": 1639461699879,
+                    "startTime": 1639461690036,
+                    "endTime": 1639461690037,
                     "weight": 3
                 },
                 {
@@ -348,11 +368,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 17,
+                    "time": 4,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699879,
-                    "endTime": 1639461699896,
+                    "startTime": 1639461690037,
+                    "endTime": 1639461690042,
                     "weight": 3
                 },
                 {
@@ -364,11 +384,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 11,
+                    "time": 41,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699898,
-                    "endTime": 1639461699910,
+                    "startTime": 1639461690044,
+                    "endTime": 1639461690085,
                     "weight": 3
                 },
                 {
@@ -380,11 +400,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699914,
-                    "endTime": 1639461699915,
+                    "startTime": 1639461690089,
+                    "endTime": 1639461690089,
                     "weight": 3
                 },
                 {
@@ -396,11 +416,11 @@
                     ],
                     "success": true,
                     "skipped": false,
-                    "time": 1,
+                    "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699915,
-                    "endTime": 1639461699916,
+                    "startTime": 1639461690090,
+                    "endTime": 1639461690090,
                     "weight": 3
                 },
                 {
@@ -415,8 +435,8 @@
                     "time": 0,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699916,
-                    "endTime": 1639461699916,
+                    "startTime": 1639461690091,
+                    "endTime": 1639461690091,
                     "weight": 3
                 },
                 {
@@ -431,8 +451,8 @@
                     "time": 11,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699916,
-                    "endTime": 1639461699927,
+                    "startTime": 1639461690091,
+                    "endTime": 1639461690102,
                     "weight": 3
                 },
                 {
@@ -447,8 +467,8 @@
                     "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699932,
-                    "endTime": 1639461699933,
+                    "startTime": 1639461690104,
+                    "endTime": 1639461690105,
                     "weight": 2
                 },
                 {
@@ -463,8 +483,8 @@
                     "time": 1,
                     "log": [],
                     "assertionErrors": [],
-                    "startTime": 1639461699938,
-                    "endTime": 1639461699939,
+                    "startTime": 1639461690106,
+                    "endTime": 1639461690107,
                     "weight": 2
                 },
                 {
@@ -474,13 +494,16 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 4,
+                    "log": [
+                        "TypeError: Cannot read properties of null (reading 'textContent')",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:63:60)"
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461699944,
-                    "endTime": 1639461699955,
+                    "startTime": 1639461690107,
+                    "endTime": 1639461690112,
                     "weight": 2
                 },
                 {
@@ -490,13 +513,16 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 1,
+                    "log": [
+                        "TypeError: Cannot read properties of null (reading 'textContent')",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:73:60)"
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461699960,
-                    "endTime": 1639461699971,
+                    "startTime": 1639461690114,
+                    "endTime": 1639461690115,
                     "weight": 1
                 },
                 {
@@ -506,13 +532,16 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 2,
+                    "log": [
+                        "TypeError: Cannot read properties of null (reading 'textContent')",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:83:60)"
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461699977,
-                    "endTime": 1639461699988,
+                    "startTime": 1639461690130,
+                    "endTime": 1639461690132,
                     "weight": 1
                 },
                 {
@@ -522,13 +551,16 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 1,
+                    "log": [
+                        "TypeError: Cannot read properties of null (reading 'textContent')",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:93:60)"
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461699992,
-                    "endTime": 1639461700003,
+                    "startTime": 1639461690136,
+                    "endTime": 1639461690137,
                     "weight": 1
                 },
                 {
@@ -538,20 +570,22 @@
                         "advanced support",
                         "events"
                     ],
-                    "success": true,
+                    "success": false,
                     "skipped": false,
-                    "time": 11,
-                    "log": [],
+                    "time": 1,
+                    "log": [
+                        "TypeError: Cannot read properties of null (reading 'textContent')",
+                        "    at Context.eval (webpack:///./src/advanced-tests.js?:103:60)"
+                    ],
                     "assertionErrors": [],
-                    "startTime": 1639461700008,
-                    "endTime": 1639461700019,
+                    "startTime": 1639461690142,
+                    "endTime": 1639461690143,
                     "weight": 1
                 }
             ]
         }
     ],
     "library": {
-        "name": "hyperhtml",
-        "version": "2.34.0"
+        "name": "elm"
     }
 }
